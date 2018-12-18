@@ -49,6 +49,13 @@ PHP, acrónimo recursivo en inglés de PHP Personal Hypertext processor (preproc
 PHP ha evolucionado por lo que ahora incluye también una interfaz de línea de comandos que puede ser usada en aplicaciones gráficas independientes. Puede ser usado en la mayoría de los servidores web al igual que en muchos sistemas operativos y plataformas sin ningún costo.
   
 Fue creado originalmente por Rasmus Lerdorf en el año 1995. Actualmente el lenguaje sigue siendo desarrollado con nuevas funciones por el grupo PHP.2​ Este lenguaje forma parte del software libre publicado bajo la licencia PHPv3_01, es una licencia Open Source validada por Open Source Initiative. La licencia de PHP es del estilo de licencias BSD, esta licencia no tiene restricciones de copyleft" asociadas con GPL.
+
+Ventajas:  
+
+Desventajas:  
+
+
+
 ## Herramientas de desarrollo
 
 Hemos empleado software usado con anterioridad en otras asignaturas:  
