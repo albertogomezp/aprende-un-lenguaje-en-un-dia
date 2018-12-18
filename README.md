@@ -56,7 +56,10 @@ Ventajas:
  - El código fuente escrito en PHP es invisible al navegador y al cliente ya que es el servidor el que se encarga de ejecutar el código y enviar su resultado HTML al navegador. Esto hace que la programación en PHP sea segura y confiable.  
  - Capacidad de conexión con la mayoría de los motores de base de datos que se utilizan en la actualidad, destaca su conectividad con MySQL y PostgreSQL.  
 Desventajas:  
-
+ - Requiere la instalación del servidor  
+ - Debes saber cuando menos HTML para poder hacer un trabajo medianamente funcional
+ - No se puede ocultar el código fuente; El lugar mas seguro para ejecutar una aplicacion es en un servidor propio, por lo cual si un cliente o usuario requiere su codigo en su pc, tendriamos que dejar su codigo, sin manera de ocultarlo, aunque hay muchas aplicaciones que nos ayuda a encriptar el codigo fuente, esto sigue siendo un problema  
+ - No es del todo independiente.  
 
 
 ## Herramientas de desarrollo
@@ -92,6 +95,7 @@ Paso 4: Hemos abierto el archivo para comprobar que todo funcione correctamente.
 <img src="imagenes/opera.png" width="100%">
 
 ### 2. Pirámide
+Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 Hemos partido de nuestros conocimientos de Java. Hemos tenido que adaptar la sintaxis y complementarlo con un HTML (formulario) para poder pedir al usuario la altura.  
 <img src="imagenes/VSCpiramide.png" width="100%">  
 Con lo que obtenemos el siguiente código:  
@@ -124,7 +128,6 @@ Con lo que obtenemos el siguiente código:
  </body>
 </html>
 ```
-Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 
 ### 3. Arrays y números aleatorios
 
