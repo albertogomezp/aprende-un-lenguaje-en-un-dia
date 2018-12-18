@@ -60,8 +60,8 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
 
-<p style="text-align: center">Paso 1: Dirigirnos a nuestro localhost para crear el archivo: C:/Xampp/htdocs/pruebas/ y hemos creado el fichero pruebas.php</p>
-<p style="text-align: center">Paso 2: En VSC hemos escrito el código:</p>  
+Paso 1: Dirigirnos a nuestro localhost para crear el archivo: C:/Xampp/htdocs/pruebas/ y hemos creado el fichero pruebas.php  
+Paso 2: En VSC hemos escrito el código:  
 ```PHP
 <html>
  <head>
@@ -73,10 +73,10 @@ Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
 </html>
 ```  
 <img src="imagenes/VSC.png" width="100%">
-<p style="text-align: center">Paso 3: Hemos iniciado el Xampp para iniciar el servidor</p> 
+Paso 3: Hemos iniciado el Xampp para iniciar el servidor  
 <img src="imagenes/XAMPP.png" width="100%">
-<p style="text-align: center">Paso 4: Hemos abierto el archivo para comprobar que todo funcione correctamente.</p> 
-<img src="imagenes/OPERA.png" width="100%">
+Paso 4: Hemos abierto el archivo para comprobar que todo funcione correctamente.  
+<img src="imagenes/opera.png" width="100%">
 
 ### 2. Pirámide
 
