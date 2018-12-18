@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <title>Prueba de PHP</title>
+ </head>
+ <body>
+   <h1>Introduce la altura deseada para la piramide:</h1>
+   <form  method="post">
+            Altura:<br>
+            <input type="text" name="filas"><br>
+            <input type="submit" name="Enviar"><br>
+        </form>
+   <div id="piramide" style="text-align:center"> <?php
+    function crear_piramide ($filas) {
+        $caracteres = null;
+        $saltodelinea =null;
+        for ($i = 1; $i <= $filas; $i++) {  //Con esto sacamos el numero de lineas a repetir
+            for ($p = 1; $p <= $i; $p+=$filas) {
+                echo $caracteres .= "*";
+            }
+            echo $saltodelinea."<br />";
+        }
+    }
+    
+    // Forma de uso
+    
+    crear_piramide ($altura = $_POST['filas']); ?>
+  </div>
+
+ </body>
+</html>

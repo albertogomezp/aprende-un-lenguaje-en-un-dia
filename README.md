@@ -51,7 +51,10 @@ PHP ha evolucionado por lo que ahora incluye también una interfaz de línea de 
 Fue creado originalmente por Rasmus Lerdorf en el año 1995. Actualmente el lenguaje sigue siendo desarrollado con nuevas funciones por el grupo PHP.2​ Este lenguaje forma parte del software libre publicado bajo la licencia PHPv3_01, es una licencia Open Source validada por Open Source Initiative. La licencia de PHP es del estilo de licencias BSD, esta licencia no tiene restricciones de copyleft" asociadas con GPL.
 
 Ventajas:  
-
+ - Es un lenguaje multiplataforma.  
+ - Completamente orientado al desarrollo de aplicaciones web dinámicas con acceso a información almacenada en una Base de Datos.  
+ - El código fuente escrito en PHP es invisible al navegador y al cliente ya que es el servidor el que se encarga de ejecutar el código y enviar su resultado HTML al navegador. Esto hace que la programación en PHP sea segura y confiable.  
+ - Capacidad de conexión con la mayoría de los motores de base de datos que se utilizan en la actualidad, destaca su conectividad con MySQL y PostgreSQL.  
 Desventajas:  
 
 
@@ -89,7 +92,38 @@ Paso 4: Hemos abierto el archivo para comprobar que todo funcione correctamente.
 <img src="imagenes/opera.png" width="100%">
 
 ### 2. Pirámide
-
+Hemos partido de nuestros conocimientos de Java. Hemos tenido que adaptar la sintaxis y complementarlo con un HTML (formulario) para poder pedir al usuario la altura.  
+<img src="imagenes/VSCpiramide.png" width="100%">  
+Con lo que obtenemos el siguiente código:  
+<img src="imagenes/operapiramide.png" width="100%">
+```PHP
+<html>
+ <head>
+  <title>Prueba de PHP</title>
+ </head>
+ <body>
+   <h1>Introduce la altura deseada para la piramide:</h1>
+   <form  method="post">
+            Altura:<br>
+            <input type="text" name="filas"><br>
+            <input type="submit" name="Enviar"><br>
+        </form>
+   <div id="piramide" style="text-align:center"> <?php
+    function crear_piramide ($filas) {
+        $caracteres = null;
+        $saltodelinea =null;
+        for ($i = 1; $i <= $filas; $i++) {  //Con esto sacamos el numero de lineas a repetir
+            for ($p = 1; $p <= $i; $p+=$filas) {
+                echo $caracteres .= "*";
+            }
+            echo $saltodelinea."<br />";
+        }
+    }
+    crear_piramide ($altura = $_POST['filas']); ?>
+  </div>
+ </body>
+</html>
+```
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 
 ### 3. Arrays y números aleatorios
