@@ -48,8 +48,10 @@ Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe 
 
 ## Herramientas de desarrollo
 
-Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
-
+Hemos empleado software usado con anterioridad en otras asignaturas:  
+- Xampp: Para mantener todo el localhost  
+- Visual Studio Code: Para escribir el código  
+- Opera: para probar el código  
 ## Poniendo en práctica el lenguaje
 
 Pon en práctica el lenguaje de programación realizando los siguientes ejercicios. Para cada uno de los ejercicios, pega el código fuente de la solución y una captura de pantalla.
@@ -57,6 +59,22 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 ### 1. ¡Hola mundo!
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
+
+Paso 1: Dirigirnos a nuestro localhost para crear el archivo: C:/Xampp/htdocs/pruebas/ y hemos creado el fichero pruebas.php  
+Paso 2: En VSC hemos escrito el código:  
+```PHP
+<html>
+ <head>
+  <title>Prueba de PHP</title>
+ </head>
+ <body>
+ <?php echo '<p>Hola Mundo</p>'; ?>
+ </body>
+</html>
+```  
+Paso 3: Hemos iniciado el Xampp para iniciar el servidor  
+
+Paso 4: Hemos abierto el archivo para comprobar que todo funcione correctamente.  
 
 ### 2. Pirámide
 
