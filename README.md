@@ -131,7 +131,12 @@ Con este código:
 ### 3. Arrays y números aleatorios
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
+<img src="imagenes/operaarray.png" width="100%">  
+```PHP
 
+
+
+```
 ## Presentación de resultados
 
 Cada equipo explicará al resto de la clase lo aprendido durante la realización del ejercicio. Todos los miembros de cada equipo deben participar en la explicación. Se puede utilizar como material de base para la presentación el repositorio de GitHub.
