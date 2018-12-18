@@ -74,8 +74,9 @@ Paso 2: En VSC hemos escrito el código:
 ```  
 <img src="imagenes/VSC.png" width="100%">
 Paso 3: Hemos iniciado el Xampp para iniciar el servidor  
-
+<img src="imagenes/XAMPP.png" width="100%">
 Paso 4: Hemos abierto el archivo para comprobar que todo funcione correctamente.  
+<img src="imagenes/OPERA.png" width="100%">
 
 ### 2. Pirámide
 
