@@ -97,9 +97,8 @@ Paso 4: Hemos abierto el archivo para comprobar que todo funcione correctamente.
 ### 2. Pirámide
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 Hemos partido de nuestros conocimientos de Java. Hemos tenido que adaptar la sintaxis y complementarlo con un HTML (formulario) para poder pedir al usuario la altura.  
-<img src="imagenes/VSCpiramide.png" width="100%">  
-Con lo que obtenemos el siguiente código:  
 <img src="imagenes/operapiramide.png" width="100%">
+Con este código:  
 ```PHP
 <html>
  <head>
