@@ -132,8 +132,50 @@ Con este código:
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
 <img src="imagenes/operaarray.png" width="100%">  
+Con el siguiente código fuente, aunque tuvimos ciertas dificultades lo logramos sacar con éxito
 ```PHP
-
+<html>
+ <head>
+  <title>Prueba de PHP</title>
+ </head>
+ <body>
+   <h1>Array de 20 numeros aleatorios entre (1-100):</h1>
+   <div id="array"> 
+   <?php
+        function esPrimo($num) {
+            $primo = true;
+            $divisionNumber = $num - 1;
+            while ( $primo && $divisionNumber > 1 ) {
+                if ( $num % $divisionNumber == 0 ) {
+                    $primo = false;
+                }
+                $divisionNumber--;
+            }
+            return $primo;
+        }
+        $array = array();
+        $realArray = array();
+        $currentIndex = 0;
+        for ( $i = 0; $i < 20; $i++ ) {
+            array_push($array, rand(1, 100));
+        }
+        var_dump($array);
+        echo "<br />";
+        echo "<br />";
+        for ( $i = 0; $i < sizeof($array); $i++ ) {
+            if ( esPrimo($array[$i]) ){
+                array_push( $realArray, $array[$i] );
+                unset($array[$i]);
+            }
+        }
+        foreach ( $array as $val ) {
+            array_push($realArray, $val);
+        }
+        var_dump($realArray);
+    ?>
+  </div>
+ </body>
+</html>
 
 
 ```
