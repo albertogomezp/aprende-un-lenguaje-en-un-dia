@@ -72,7 +72,7 @@ Paso 2: En VSC hemos escrito el código:
  </body>
 </html>
 ```  
-<img src="imagenes/VSC.png" width="350">
+<img src="imagenes/VSC.png" width="100%">
 Paso 3: Hemos iniciado el Xampp para iniciar el servidor  
 
 Paso 4: Hemos abierto el archivo para comprobar que todo funcione correctamente.  
